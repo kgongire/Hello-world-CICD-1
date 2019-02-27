@@ -1,6 +1,7 @@
 provider "aws" {
   region  = "${var.aws_region}"
-  shared_credentials_file = "/home/centos/.aws/credentials"
+  access_key = "AKIAJ6PWUOUEWTK7XWCQ"
+  secret_key = "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"
   version = "1.23.0"
 }
 
