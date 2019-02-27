@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "${var.aws_region}"
-  profile = "default"
+  shared_credentials_file = "/home/centos/.aws/credentials"
   version = "1.23.0"
 }
 
