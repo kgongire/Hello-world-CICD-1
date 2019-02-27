@@ -1,7 +1,6 @@
 provider "aws" {
   region  = "${var.aws_region}"
-  access_key = "AKIAJ6PWUOUEWTK7XWCQ"
-  secret_key = "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"
+  profile = "mycdd"
   version = "1.23.0"
 }
 
